@@ -24,7 +24,7 @@ const Navigation: React.FC = () => {
           </NavLink>
 
           <NavLink
-            to="people"
+            to="/people"
             className={({ isActive }) => {
               return classNames('navbar-item', {
                 'has-background-grey-lighter': isActive,

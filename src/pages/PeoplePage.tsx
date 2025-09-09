@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { PeopleTable } from '../components/PeopleList';
+import { PeopleTable } from '../components/PeopleTable';
 import { getPeople } from '../api';
 import { Person } from '../types/Person';
 import { Loader } from '../components/Loader';
